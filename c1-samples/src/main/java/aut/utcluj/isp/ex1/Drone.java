@@ -2,7 +2,7 @@
 package aut.utcluj.isp.ex1;
 
 public class Drone {
-    
+
     private String id;
     private boolean state;
 
@@ -13,7 +13,7 @@ public class Drone {
     Drone(String dR3) {
         throw new UnsupportedOperationException("Not supported yet.");
     }
-    
+
     public String getId() {
         return id;
     }
@@ -21,5 +21,5 @@ public class Drone {
     public boolean isState() {
         return state;
     }
-    
+
 }

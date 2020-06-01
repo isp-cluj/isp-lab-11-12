@@ -10,7 +10,13 @@ package aut.utcluj.isp.ex5;
  * @author mihai.hulea
  */
 public interface Operations {
-    public void goUp();
-    
-    public void goDown();
+    /**
+     * Increase the altitude by 1 unit
+     */
+    void goUp();
+
+    /**
+     * Decrease the altitude by 1 unit
+     */
+    void goDown();
 }

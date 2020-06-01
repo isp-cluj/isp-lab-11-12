@@ -6,7 +6,7 @@ public class Drone {
     private String id;
     private boolean state;
 
-     public String flight(){
-        return "Drone "+id+" is up.";
+    public String flight() {
+        return "Drone " + id + " is up.";
     }
 }

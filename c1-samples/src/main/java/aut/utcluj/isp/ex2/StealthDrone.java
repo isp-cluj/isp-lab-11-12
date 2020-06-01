@@ -6,7 +6,6 @@
 package aut.utcluj.isp.ex2;
 
 /**
- *
  * @author mihai.hulea
  */
 public class StealthDrone {
@@ -19,5 +18,4 @@ public class StealthDrone {
     String flight() {
         throw new UnsupportedOperationException("Not supported yet.");
     }
-    
 }
